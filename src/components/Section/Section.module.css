@@ -1,0 +1,9 @@
+.section {
+  padding: 60px 0;
+}
+
+.section__title {
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}

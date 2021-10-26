@@ -1,5 +1,7 @@
 .stat {
   height: 100%;
+  text-align: left;
+  width: 200px;
 }
 
 .stat__title {

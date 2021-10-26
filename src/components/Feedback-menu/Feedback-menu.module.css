@@ -1,9 +1,11 @@
 .feedbackMenu {
+  margin-right: 45px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  /* height: 150px; */
 }
 
 .feedbackBtn {
@@ -19,6 +21,10 @@
 
   cursor: pointer;
   box-shadow: 4px 4px 100px -9px rgba(34, 60, 80, 0.41);
+}
+
+.feedbackBtn:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .feedbackBtn:hover {
