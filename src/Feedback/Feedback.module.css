@@ -1,0 +1,13 @@
+.feedbackForm {
+  margin: 30px auto 0 auto;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 280px;
+  border: 1px #ffffff solid;
+  border-radius: 15px;
+
+  background-color: #ffe4c4;
+}

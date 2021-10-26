@@ -1,0 +1,11 @@
+.stat {
+  height: 100%;
+}
+
+.stat__title {
+  margin-bottom: 10px;
+}
+
+.stat__item:not(:last-child) {
+  margin-bottom: 5px;
+}
