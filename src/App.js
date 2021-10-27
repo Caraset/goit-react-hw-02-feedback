@@ -1,10 +1,9 @@
-import { Component } from "react";
-import s from "./App.module.css";
-// import Feedback from "./Feedback/";
+import { Component } from 'react';
+import s from './App.module.css';
 
-import FeedbackMenu from "./components/Feedback-menu";
-import Statistics from "./components/Statistics";
-import Section from "./components/Section/";
+import FeedbackMenu from './components/Feedback-menu';
+import Statistics from './components/Statistics';
+import Section from './components/Section/';
 
 class App extends Component {
   state = {
@@ -14,9 +13,9 @@ class App extends Component {
     // neOchen: 0,
   };
 
-  onLeaveFeedback = (e) => {
+  onLeaveFeedback = e => {
     const name = e.target.value;
-    this.setState((prevState) => {
+    this.setState(prevState => {
       return {
         ...prevState,
         [name]: (prevState[name] += 1),
@@ -45,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className={s.app}>
-        <Section title={"Please leave feedback"}>
+        <Section title={'Please leave feedback'}>
           <div className={s.feedbackForm}>
             <FeedbackMenu
               options={this.state}
